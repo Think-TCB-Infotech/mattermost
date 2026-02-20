@@ -25,7 +25,7 @@ export function toUsagePercent(usage: number, limit: number): number {
 // Use as a fallback.
 export const fallbackStarterLimits = {
     messages: {
-        history: 10000,
+        history: 999999999,
     },
     files: {
         totalStorage: Number(FileSizes.Gigabyte),
